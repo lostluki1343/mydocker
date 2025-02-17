@@ -1,0 +1,4 @@
+.idea
+docker/ubuntu-server/compose/testdata
+docker/webserver/log
+

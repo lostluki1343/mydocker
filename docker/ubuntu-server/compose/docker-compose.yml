@@ -1,0 +1,9 @@
+services:
+  ubuntu-container:
+    image: mein_ubuntu
+    container_name: "${NAME:-ubuntu_name}"
+    environment:
+      - abc=${ENV_ABC:-example_value}
+    volumes:
+      - ${TEST_VOLUME}:/test
+    tty: true
